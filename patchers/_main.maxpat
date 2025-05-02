@@ -10,10 +10,91 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -2159.0, -354.0, 2097.0, 1234.0 ],
+		"rect" : [ -2526.0, -354.0, 1990.0, 1234.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"activebgoncolor" : [ 0.815686274509804, 0.858823529411765, 0.349019607843137, 1.0 ],
+					"activetextoncolor" : [ 0.815686274509804, 0.858823529411765, 0.349019607843137, 1.0 ],
+					"bordercolor" : [ 0.815686274509804, 0.858823529411765, 0.349019607843137, 1.0 ],
+					"focusbordercolor" : [ 0.447058823529412, 0.447058823529412, 0.447058823529412, 0.0 ],
+					"id" : "obj-27",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1297.0, 1294.0, 225.0, 32.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 374.0, 1099.0, 225.0, 32.0 ],
+					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetextoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text[1]",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "MOSS",
+					"varname" : "live.text[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1297.0, 1354.0, 252.0, 35.0 ],
+					"presentation_linecount" : 3,
+					"text" : ";\rmax launchbrowser https://anecoica.net/moss"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontsize" : 18.0,
+					"id" : "obj-26",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1214.0, 1182.0, 391.0, 106.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 277.0, 1010.0, 419.0, 86.0 ],
+					"text" : "This patch introduces a basic example of data sonification.\nYou can experience the full piece by clicking here"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"justification" : 1,
@@ -41,7 +122,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 955.0, 1286.0, 225.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.020245254039764, 1082.0, 225.0, 32.0 ],
+					"presentation_rect" : [ 21.020245254039764, 1099.0, 225.0, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : ""
@@ -90,16 +171,18 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
 					"fontsize" : 18.0,
 					"id" : "obj-12",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 959.0, 1205.504486560821533, 221.0, 67.0 ],
+					"patching_rect" : [ 959.0, 1205.504486560821533, 221.0, 86.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 23.020245254039764, 1010.0, 221.0, 67.0 ],
+					"presentation_rect" : [ 23.020245254039764, 1010.0, 221.0, 86.0 ],
 					"text" : "Patch developed by Marco Accardi | Anecoica Studio "
 				}
 
@@ -4342,13 +4425,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-32",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1461.833582639694214, 347.229606330394745, 156.0, 49.0 ],
-									"text" : "https://aqicn.org/city/thailand/lamphun/provincial-administrative-stadium"
+									"text" : "https://aqicn.org/city/hungary/sopron"
 								}
 
 							}
@@ -4399,7 +4482,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1128.075259804725647, 785.872302412986755, 29.5, 22.0 ],
-									"text" : "55"
+									"text" : "53"
 								}
 
 							}
@@ -4426,7 +4509,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1016.917360663414001, 755.797112345695496, 41.841410338878632, 22.0 ],
-									"text" : "21"
+									"text" : "10"
 								}
 
 							}
@@ -4480,7 +4563,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 825.206716895103455, 641.511390089988708, 41.841410338878632, 22.0 ],
-									"text" : "0.6"
+									"text" : "1.5"
 								}
 
 							}
@@ -4507,7 +4590,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 686.842149674892426, 550.533940136432648, 41.841410338878632, 22.0 ],
-									"text" : "55"
+									"text" : "53"
 								}
 
 							}
@@ -4639,7 +4722,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 618.973483085632324, 479.408422529697418, 41.841410338878632, 22.0 ],
-									"text" : "9.2"
+									"text" : "11.3"
 								}
 
 							}
@@ -4651,7 +4734,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 530.93531060218811, 430.19376128911972, 50.0, 22.0 ],
-									"text" : "2.8"
+									"text" : "3"
 								}
 
 							}
@@ -4663,7 +4746,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 460.580474028220578, 375.743497788906097, 64.0, 22.0 ],
-									"text" : "34"
+									"text" : "19.3"
 								}
 
 							}
@@ -4675,7 +4758,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 364.966718971729279, 300.751308023929596, 50.0, 22.0 ],
-									"text" : "82"
+									"text" : "15"
 								}
 
 							}
@@ -4687,7 +4770,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 290.097606658935547, 257.942446947097778, 52.0, 22.0 ],
-									"text" : "1008.5"
+									"text" : "997.6"
 								}
 
 							}
@@ -4699,7 +4782,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 211.998127341270447, 236.227747797966003, 50.0, 22.0 ],
-									"text" : "9.9"
+									"text" : "20"
 								}
 
 							}
@@ -4711,7 +4794,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 138.366426332638866, 183.596894860267639, 50.0, 22.0 ],
-									"text" : "0.6"
+									"text" : "4.4"
 								}
 
 							}
@@ -4723,7 +4806,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 62.61185896396637, 145.727747797966003, 52.0, 22.0 ],
-									"text" : "46.5"
+									"text" : "54.9"
 								}
 
 							}
@@ -5754,7 +5837,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1972.566530406475067, 68.141598403453827, 808.75981804728508, 621.291655898094177 ],
 					"rendermode" : 0,
-					"url" : "https://aqicn.org/city/thailand/lamphun/provincial-administrative-stadium"
+					"url" : "https://aqicn.org/city/hungary/sopron"
 				}
 
 			}
@@ -6075,12 +6158,17 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"aqi" : 55,
-						"idx" : 1868,
+						"aqi" : 53,
+						"idx" : 3345,
 						"attributions" : [ 							{
-								"url" : "http://aqmthai.com/",
-								"name" : "Division of Air Quality Data, Air Quality and Noise Management Bureau, Pollution Control Department.",
-								"logo" : "Thailand-PCD.png"
+								"url" : "https://legszennyezettseg.met.hu/",
+								"name" : "Hungarian Air Quality Network (Maďarský systém na meranie znečistenia vzduchu)",
+								"logo" : "Hungary-foldmuvelesugyi.png"
+							}
+, 							{
+								"url" : "http://www.eea.europa.eu/themes/air/",
+								"name" : "European Environment Agency",
+								"logo" : "Europe-EEA.png"
 							}
 , 							{
 								"url" : "https://waqi.info/",
@@ -6088,213 +6176,214 @@
 							}
  ],
 						"city" : 						{
-							"geo" : [ 18.567194000000001, 99.038639000000003 ],
-							"name" : "Provincial Administrative Stadium, Lamphun, Thailand (สนามกีฬาองค์การบริหารส่วนจังหวัดลำพูน)",
-							"url" : "https://aqicn.org/city/thailand/lamphun/provincial-administrative-stadium",
+							"geo" : [ 47.691299999999998, 16.575479999999999 ],
+							"name" : "Sopron, Sopron, Hungary",
+							"url" : "https://aqicn.org/city/hungary/sopron",
 							"location" : ""
 						}
 ,
 						"dominentpol" : "pm25",
 						"iaqi" : 						{
+							"co" : 							{
+								"v" : 3.5
+							}
+,
 							"dew" : 							{
-								"v" : 21
+								"v" : 10
 							}
 ,
 							"h" : 							{
-								"v" : 46.5
-							}
-,
-							"no2" : 							{
-								"v" : 0.6
+								"v" : 54.899999999999999
 							}
 ,
 							"o3" : 							{
-								"v" : 9.9
+								"v" : 20
 							}
 ,
 							"p" : 							{
-								"v" : 1008.5
+								"v" : 997.600000000000023
 							}
 ,
 							"pm10" : 							{
-								"v" : 82
+								"v" : 15
 							}
 ,
 							"pm25" : 							{
-								"v" : 55
+								"v" : 53
+							}
+,
+							"r" : 							{
+								"v" : 99.900000000000006
 							}
 ,
 							"so2" : 							{
-								"v" : 0.6
+								"v" : 1.5
 							}
 ,
 							"t" : 							{
-								"v" : 34
+								"v" : 19.300000000000001
 							}
 ,
 							"w" : 							{
-								"v" : 2.8
-							}
-,
-							"wg" : 							{
-								"v" : 9.199999999999999
+								"v" : 3
 							}
 
 						}
 ,
 						"time" : 						{
-							"s" : "2025-05-02 14:00:00",
-							"tz" : "+07:00",
-							"v" : 1746194400,
-							"iso" : "2025-05-02T14:00:00+07:00"
+							"s" : "2025-05-02 08:00:00",
+							"tz" : "+02:00",
+							"v" : 1746172800,
+							"iso" : "2025-05-02T08:00:00+02:00"
 						}
 ,
 						"forecast" : 						{
 							"daily" : 							{
-								"pm10" : [ 									{
-										"avg" : 19,
-										"day" : "2025-04-30",
-										"max" : 19,
-										"min" : 19
-									}
-, 									{
-										"avg" : 23,
-										"day" : "2025-05-01",
-										"max" : 28,
-										"min" : 19
-									}
-, 									{
-										"avg" : 27,
+								"o3" : [ 									{
+										"avg" : 14,
 										"day" : "2025-05-02",
-										"max" : 32,
-										"min" : 20
+										"max" : 23,
+										"min" : 6
 									}
 , 									{
-										"avg" : 19,
+										"avg" : 16,
 										"day" : "2025-05-03",
-										"max" : 28,
-										"min" : 10
+										"max" : 25,
+										"min" : 11
 									}
 , 									{
-										"avg" : 19,
+										"avg" : 11,
 										"day" : "2025-05-04",
-										"max" : 30,
-										"min" : 10
+										"max" : 18,
+										"min" : 6
 									}
 , 									{
-										"avg" : 15,
+										"avg" : 10,
 										"day" : "2025-05-05",
-										"max" : 19,
+										"max" : 14,
+										"min" : 7
+									}
+, 									{
+										"avg" : 12,
+										"day" : "2025-05-06",
+										"max" : 15,
 										"min" : 10
 									}
 , 									{
 										"avg" : 15,
-										"day" : "2025-05-06",
-										"max" : 19,
-										"min" : 10
+										"day" : "2025-05-07",
+										"max" : 17,
+										"min" : 15
+									}
+ ],
+								"pm10" : [ 									{
+										"avg" : 13,
+										"day" : "2025-05-02",
+										"max" : 16,
+										"min" : 11
 									}
 , 									{
-										"avg" : 21,
-										"day" : "2025-05-07",
-										"max" : 28,
+										"avg" : 15,
+										"day" : "2025-05-03",
+										"max" : 16,
 										"min" : 13
 									}
 , 									{
-										"avg" : 26,
-										"day" : "2025-05-08",
-										"max" : 28,
-										"min" : 21
+										"avg" : 8,
+										"day" : "2025-05-04",
+										"max" : 15,
+										"min" : 2
+									}
+, 									{
+										"avg" : 8,
+										"day" : "2025-05-05",
+										"max" : 10,
+										"min" : 4
+									}
+, 									{
+										"avg" : 7,
+										"day" : "2025-05-06",
+										"max" : 8,
+										"min" : 6
+									}
+, 									{
+										"avg" : 8,
+										"day" : "2025-05-07",
+										"max" : 8,
+										"min" : 8
 									}
  ],
 								"pm25" : [ 									{
-										"avg" : 68,
-										"day" : "2025-04-30",
-										"max" : 68,
-										"min" : 68
-									}
-, 									{
-										"avg" : 78,
-										"day" : "2025-05-01",
-										"max" : 89,
-										"min" : 68
-									}
-, 									{
-										"avg" : 86,
+										"avg" : 44,
 										"day" : "2025-05-02",
-										"max" : 97,
-										"min" : 69
+										"max" : 55,
+										"min" : 31
 									}
 , 									{
-										"avg" : 66,
+										"avg" : 46,
 										"day" : "2025-05-03",
-										"max" : 89,
-										"min" : 32
+										"max" : 55,
+										"min" : 25
 									}
 , 									{
-										"avg" : 61,
+										"avg" : 21,
 										"day" : "2025-05-04",
-										"max" : 93,
-										"min" : 30
+										"max" : 46,
+										"min" : 7
 									}
 , 									{
-										"avg" : 52,
+										"avg" : 21,
 										"day" : "2025-05-05",
-										"max" : 65,
-										"min" : 40
+										"max" : 28,
+										"min" : 11
 									}
 , 									{
-										"avg" : 52,
+										"avg" : 24,
 										"day" : "2025-05-06",
-										"max" : 68,
-										"min" : 30
+										"max" : 26,
+										"min" : 19
 									}
 , 									{
-										"avg" : 68,
+										"avg" : 28,
 										"day" : "2025-05-07",
-										"max" : 76,
-										"min" : 53
-									}
-, 									{
-										"avg" : 82,
-										"day" : "2025-05-08",
-										"max" : 89,
-										"min" : 68
+										"max" : 30,
+										"min" : 28
 									}
  ],
 								"uvi" : [ 									{
 										"avg" : 0,
 										"day" : "2025-05-01",
-										"max" : 0,
+										"max" : 4,
 										"min" : 0
 									}
 , 									{
-										"avg" : 2,
+										"avg" : 1,
 										"day" : "2025-05-02",
-										"max" : 9,
+										"max" : 5,
 										"min" : 0
 									}
 , 									{
-										"avg" : 2,
+										"avg" : 1,
 										"day" : "2025-05-03",
-										"max" : 11,
+										"max" : 6,
 										"min" : 0
 									}
 , 									{
-										"avg" : 2,
+										"avg" : 1,
 										"day" : "2025-05-04",
-										"max" : 11,
+										"max" : 4,
 										"min" : 0
 									}
 , 									{
-										"avg" : 2,
+										"avg" : 0,
 										"day" : "2025-05-05",
-										"max" : 11,
+										"max" : 1,
 										"min" : 0
 									}
 , 									{
-										"avg" : 3,
+										"avg" : 1,
 										"day" : "2025-05-06",
-										"max" : 10,
+										"max" : 3,
 										"min" : 0
 									}
  ]
@@ -6303,7 +6392,7 @@
 						}
 ,
 						"debug" : 						{
-							"sync" : "2025-05-02T16:58:10+09:00"
+							"sync" : "2025-05-02T17:29:14+09:00"
 						}
 
 					}
@@ -6949,6 +7038,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-266", 1 ],
 					"source" : [ "obj-268", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -7665,6 +7761,7 @@
 			"obj-260" : [ "live.numbox[36]", "live.numbox", 0 ],
 			"obj-261" : [ "live.numbox[37]", "live.numbox", 0 ],
 			"obj-267" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-27" : [ "live.text[1]", "live.text", 0 ],
 			"obj-277::obj-1" : [ "Depth", "Depth", 0 ],
 			"obj-277::obj-2" : [ "Rate", "Rate", 0 ],
 			"obj-277::obj-23" : [ "bypass[1]", "bypass", 0 ],
