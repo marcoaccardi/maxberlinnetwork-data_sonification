@@ -2,7 +2,7 @@ const m = require("max-api");
 const axios = require("axios"); // import max api
 require("dotenv").config();
 const TOKEN = process.env.TOKEN;
-m.post(`TOKEN: ${TOKEN}`);
+// m.post(`TOKEN: ${TOKEN}`);
 
 const API_URL = "https://api.waqi.info/feed";
 
