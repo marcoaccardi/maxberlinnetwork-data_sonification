@@ -10,15 +10,20 @@ This project has been presented the 03.05.2025 at the Max Berlin Network https:/
 
 
 ## Folder Structure
+To keep the folder manually structured.
+Make sure that "keep project folder organized" is **disabled** in Max:  
+![alt text](./media/max-inspector.png)
 ```
 max_berlin_network-data_manager/
-├── code/               # Node.js scripts (API manager)
+├── code/                                       # Node.js scripts (API manager)
 │   └── waqi_api.js
-├── patchers/           # Max/MSP patchers
-│   ├── _main.maxpat
-│   └── sonification.maxpat
-├── package.json        # Node.js dependencies
-├── .env                # API tokens
+│   └──.env                                     # API tokens
+├── patchers/                                   # Max/MSP patchers
+│   ├── _main.maxpat                            # Main patcher
+│   └── sonification.maxpat                     # Abstraction patcher as sonification module
+├── package.json                                # Node.js dependencies
+├── .gitignore                                  # Ignore files to commit in git
+├── max_berlin_network-data_manager.maxproj     # Max/MSP project
 ```
 
 ## Quick Start

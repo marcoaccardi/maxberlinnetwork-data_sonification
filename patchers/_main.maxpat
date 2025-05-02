@@ -4425,13 +4425,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-32",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1461.833582639694214, 347.229606330394745, 156.0, 49.0 ],
-									"text" : "https://aqicn.org/city/hungary/sopron"
+									"text" : "https://aqicn.org/city/california/san-diego/san-diego-sherman-elementary-school"
 								}
 
 							}
@@ -4482,7 +4482,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1128.075259804725647, 785.872302412986755, 29.5, 22.0 ],
-									"text" : "53"
+									"text" : "34"
 								}
 
 							}
@@ -4509,7 +4509,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1016.917360663414001, 755.797112345695496, 41.841410338878632, 22.0 ],
-									"text" : "10"
+									"text" : "7.5"
 								}
 
 							}
@@ -4536,7 +4536,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 921.90110195600073, 685.120415687561035, 41.841410338878632, 22.0 ],
-									"text" : "3.5"
+									"text" : "1.2"
 								}
 
 							}
@@ -4563,7 +4563,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 825.206716895103455, 641.511390089988708, 41.841410338878632, 22.0 ],
-									"text" : "1.5"
+									"text" : "0.8"
 								}
 
 							}
@@ -4590,7 +4590,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 686.842149674892426, 550.533940136432648, 41.841410338878632, 22.0 ],
-									"text" : "53"
+									"text" : "20"
 								}
 
 							}
@@ -4722,7 +4722,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 618.973483085632324, 479.408422529697418, 41.841410338878632, 22.0 ],
-									"text" : "11.3"
+									"text" : "3"
 								}
 
 							}
@@ -4734,7 +4734,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 530.93531060218811, 430.19376128911972, 50.0, 22.0 ],
-									"text" : "3"
+									"text" : "0.5"
 								}
 
 							}
@@ -4746,7 +4746,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 460.580474028220578, 375.743497788906097, 64.0, 22.0 ],
-									"text" : "19.3"
+									"text" : "14.4"
 								}
 
 							}
@@ -4758,7 +4758,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 364.966718971729279, 300.751308023929596, 50.0, 22.0 ],
-									"text" : "15"
+									"text" : "8"
 								}
 
 							}
@@ -4770,7 +4770,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 290.097606658935547, 257.942446947097778, 52.0, 22.0 ],
-									"text" : "997.6"
+									"text" : "1016"
 								}
 
 							}
@@ -4782,7 +4782,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 211.998127341270447, 236.227747797966003, 50.0, 22.0 ],
-									"text" : "20"
+									"text" : "34.4"
 								}
 
 							}
@@ -4794,7 +4794,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 138.366426332638866, 183.596894860267639, 50.0, 22.0 ],
-									"text" : "4.4"
+									"text" : "2.8"
 								}
 
 							}
@@ -4806,7 +4806,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 62.61185896396637, 145.727747797966003, 52.0, 22.0 ],
-									"text" : "54.9"
+									"text" : "77"
 								}
 
 							}
@@ -5343,7 +5343,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 316.54136848449707, 89.0, 49.0 ],
-									"text" : "moderate"
+									"text" : "good"
 								}
 
 							}
@@ -5632,7 +5632,7 @@
 					"patching_rect" : [ 650.485427975654602, 3925.225222885608673, 88.349513351917267, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1591.428609371185303, 337.142865180969238, 88.349513351917267, 22.0 ],
-					"text" : "moderate"
+					"text" : "good"
 				}
 
 			}
@@ -5837,7 +5837,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1972.566530406475067, 68.141598403453827, 808.75981804728508, 621.291655898094177 ],
 					"rendermode" : 0,
-					"url" : "https://aqicn.org/city/hungary/sopron"
+					"url" : "https://aqicn.org/city/california/san-diego/san-diego-sherman-elementary-school"
 				}
 
 			}
@@ -6158,17 +6158,16 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"aqi" : 53,
-						"idx" : 3345,
+						"aqi" : 34,
+						"idx" : 13063,
 						"attributions" : [ 							{
-								"url" : "https://legszennyezettseg.met.hu/",
-								"name" : "Hungarian Air Quality Network (Maďarský systém na meranie znečistenia vzduchu)",
-								"logo" : "Hungary-foldmuvelesugyi.png"
+								"url" : "http://www.arb.ca.gov/",
+								"name" : "CARB - California Air Resources Board",
+								"logo" : "USA-CAARB.png"
 							}
 , 							{
-								"url" : "http://www.eea.europa.eu/themes/air/",
-								"name" : "European Environment Agency",
-								"logo" : "Europe-EEA.png"
+								"url" : "http://www.airnow.gov/",
+								"name" : "Air Now - US EPA"
 							}
 , 							{
 								"url" : "https://waqi.info/",
@@ -6176,196 +6175,163 @@
 							}
  ],
 						"city" : 						{
-							"geo" : [ 47.691299999999998, 16.575479999999999 ],
-							"name" : "Sopron, Sopron, Hungary",
-							"url" : "https://aqicn.org/city/hungary/sopron",
+							"geo" : [ 32.710177000858401, -117.142664999999994 ],
+							"name" : "San Diego - Sherman Elementary School, San Diego, California",
+							"url" : "https://aqicn.org/city/california/san-diego/san-diego-sherman-elementary-school",
 							"location" : ""
 						}
 ,
-						"dominentpol" : "pm25",
+						"dominentpol" : "o3",
 						"iaqi" : 						{
-							"co" : 							{
-								"v" : 3.5
-							}
-,
-							"dew" : 							{
-								"v" : 10
-							}
-,
 							"h" : 							{
-								"v" : 54.899999999999999
+								"v" : 77
+							}
+,
+							"no2" : 							{
+								"v" : 2.8
 							}
 ,
 							"o3" : 							{
-								"v" : 20
+								"v" : 34.399999999999999
 							}
 ,
 							"p" : 							{
-								"v" : 997.600000000000023
+								"v" : 1016
 							}
 ,
 							"pm10" : 							{
-								"v" : 15
+								"v" : 8
 							}
 ,
 							"pm25" : 							{
-								"v" : 53
-							}
-,
-							"r" : 							{
-								"v" : 99.900000000000006
-							}
-,
-							"so2" : 							{
-								"v" : 1.5
+								"v" : 20
 							}
 ,
 							"t" : 							{
-								"v" : 19.300000000000001
+								"v" : 14.4
 							}
 ,
 							"w" : 							{
+								"v" : 0.5
+							}
+,
+							"wg" : 							{
 								"v" : 3
 							}
 
 						}
 ,
 						"time" : 						{
-							"s" : "2025-05-02 08:00:00",
-							"tz" : "+02:00",
-							"v" : 1746172800,
-							"iso" : "2025-05-02T08:00:00+02:00"
+							"s" : "2025-05-02 00:00:00",
+							"tz" : "-07:00",
+							"v" : 1746144000,
+							"iso" : "2025-05-02T00:00:00-07:00"
 						}
 ,
 						"forecast" : 						{
 							"daily" : 							{
-								"o3" : [ 									{
-										"avg" : 14,
-										"day" : "2025-05-02",
-										"max" : 23,
-										"min" : 6
+								"pm10" : [ 									{
+										"avg" : 23,
+										"day" : "2025-04-30",
+										"max" : 31,
+										"min" : 16
+									}
+, 									{
+										"avg" : 17,
+										"day" : "2025-05-01",
+										"max" : 22,
+										"min" : 10
 									}
 , 									{
 										"avg" : 16,
+										"day" : "2025-05-02",
+										"max" : 19,
+										"min" : 13
+									}
+, 									{
+										"avg" : 15,
 										"day" : "2025-05-03",
-										"max" : 25,
+										"max" : 19,
+										"min" : 9
+									}
+, 									{
+										"avg" : 9,
+										"day" : "2025-05-04",
+										"max" : 11,
+										"min" : 7
+									}
+, 									{
+										"avg" : 13,
+										"day" : "2025-05-05",
+										"max" : 15,
 										"min" : 11
 									}
 , 									{
 										"avg" : 11,
-										"day" : "2025-05-04",
-										"max" : 18,
-										"min" : 6
-									}
-, 									{
-										"avg" : 10,
-										"day" : "2025-05-05",
-										"max" : 14,
-										"min" : 7
-									}
-, 									{
-										"avg" : 12,
 										"day" : "2025-05-06",
 										"max" : 15,
 										"min" : 10
 									}
-, 									{
-										"avg" : 15,
-										"day" : "2025-05-07",
-										"max" : 17,
-										"min" : 15
-									}
- ],
-								"pm10" : [ 									{
-										"avg" : 13,
-										"day" : "2025-05-02",
-										"max" : 16,
-										"min" : 11
-									}
-, 									{
-										"avg" : 15,
-										"day" : "2025-05-03",
-										"max" : 16,
-										"min" : 13
-									}
-, 									{
-										"avg" : 8,
-										"day" : "2025-05-04",
-										"max" : 15,
-										"min" : 2
-									}
-, 									{
-										"avg" : 8,
-										"day" : "2025-05-05",
-										"max" : 10,
-										"min" : 4
-									}
-, 									{
-										"avg" : 7,
-										"day" : "2025-05-06",
-										"max" : 8,
-										"min" : 6
-									}
-, 									{
-										"avg" : 8,
-										"day" : "2025-05-07",
-										"max" : 8,
-										"min" : 8
-									}
  ],
 								"pm25" : [ 									{
 										"avg" : 44,
+										"day" : "2025-04-30",
+										"max" : 56,
+										"min" : 35
+									}
+, 									{
+										"avg" : 37,
+										"day" : "2025-05-01",
+										"max" : 49,
+										"min" : 23
+									}
+, 									{
+										"avg" : 35,
 										"day" : "2025-05-02",
-										"max" : 55,
-										"min" : 31
-									}
-, 									{
-										"avg" : 46,
-										"day" : "2025-05-03",
-										"max" : 55,
-										"min" : 25
-									}
-, 									{
-										"avg" : 21,
-										"day" : "2025-05-04",
 										"max" : 46,
-										"min" : 7
+										"min" : 29
 									}
 , 									{
-										"avg" : 21,
+										"avg" : 34,
+										"day" : "2025-05-03",
+										"max" : 41,
+										"min" : 21
+									}
+, 									{
+										"avg" : 16,
+										"day" : "2025-05-04",
+										"max" : 20,
+										"min" : 13
+									}
+, 									{
+										"avg" : 24,
 										"day" : "2025-05-05",
-										"max" : 28,
-										"min" : 11
+										"max" : 25,
+										"min" : 19
 									}
 , 									{
 										"avg" : 24,
 										"day" : "2025-05-06",
-										"max" : 26,
-										"min" : 19
-									}
-, 									{
-										"avg" : 28,
-										"day" : "2025-05-07",
 										"max" : 30,
-										"min" : 28
+										"min" : 23
 									}
  ],
 								"uvi" : [ 									{
-										"avg" : 0,
+										"avg" : 1,
 										"day" : "2025-05-01",
-										"max" : 4,
+										"max" : 8,
 										"min" : 0
 									}
 , 									{
 										"avg" : 1,
 										"day" : "2025-05-02",
-										"max" : 5,
+										"max" : 7,
 										"min" : 0
 									}
 , 									{
 										"avg" : 1,
 										"day" : "2025-05-03",
-										"max" : 6,
+										"max" : 8,
 										"min" : 0
 									}
 , 									{
@@ -6375,15 +6341,15 @@
 										"min" : 0
 									}
 , 									{
-										"avg" : 0,
+										"avg" : 1,
 										"day" : "2025-05-05",
-										"max" : 1,
+										"max" : 3,
 										"min" : 0
 									}
 , 									{
-										"avg" : 1,
+										"avg" : 0,
 										"day" : "2025-05-06",
-										"max" : 3,
+										"max" : 0,
 										"min" : 0
 									}
  ]
@@ -6392,7 +6358,7 @@
 						}
 ,
 						"debug" : 						{
-							"sync" : "2025-05-02T17:29:14+09:00"
+							"sync" : "2025-05-02T17:23:44+09:00"
 						}
 
 					}
