@@ -10,10 +10,101 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -2220.0, -354.0, 2186.0, 1234.0 ],
+		"rect" : [ -2159.0, -354.0, 2097.0, 1234.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"justification" : 1,
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 953.0, 1260.782544076442719, 24.074073672294617 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 17.0, 953.0, 1961.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgoncolor" : [ 0.815686274509804, 0.858823529411765, 0.349019607843137, 1.0 ],
+					"activetextoncolor" : [ 0.815686274509804, 0.858823529411765, 0.349019607843137, 1.0 ],
+					"bordercolor" : [ 0.815686274509804, 0.858823529411765, 0.349019607843137, 1.0 ],
+					"focusbordercolor" : [ 0.447058823529412, 0.447058823529412, 0.447058823529412, 0.0 ],
+					"id" : "obj-19",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 955.0, 1286.0, 225.0, 32.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 21.020245254039764, 1082.0, 225.0, 32.0 ],
+					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetextoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "VISIT ANECOICA WEBSITE",
+					"varname" : "live.text"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 955.0, 1348.0, 220.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://anecoica.net"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-12",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 959.0, 1205.504486560821533, 221.0, 67.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 23.020245254039764, 1010.0, 221.0, 67.0 ],
+					"text" : "Patch developed by Marco Accardi | Anecoica Studio "
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-118",
 					"justification" : 1,
@@ -4915,7 +5006,7 @@
 
 							}
  ],
-						"originid" : "pat-344"
+						"originid" : "pat-460"
 					}
 ,
 					"patching_rect" : [ 66.05504035949707, 1970.642037391662598, 162.0, 24.0 ],
@@ -5428,7 +5519,7 @@
 
 							}
  ],
-						"originid" : "pat-346"
+						"originid" : "pat-462"
 					}
 ,
 					"patching_rect" : [ 1044.144143521785736, 3920.720718383789062, 301.0, 22.0 ],
@@ -6255,7 +6346,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 157.798151969909668, 1205.504486560821533, 452.0, 495.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1130.088586509227753, 78.571430444717407, 444.285724878311157, 985.714309215545654 ],
+					"presentation_rect" : [ 1130.0, 79.0, 444.0, 872.0 ],
 					"stripecolor" : [ 0.235294117647059, 0.235294117647059, 0.235294117647059, 1.0 ]
 				}
 
@@ -6293,6 +6384,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
@@ -6555,6 +6648,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-196", 2 ],
 					"source" : [ "obj-189", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -7518,7 +7618,7 @@
 
 			}
  ],
-		"originid" : "pat-264",
+		"originid" : "pat-380",
 		"parameters" : 		{
 			"obj-123" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-124" : [ "live.numbox[6]", "live.numbox", 0 ],
@@ -7538,6 +7638,7 @@
 			"obj-178" : [ "live.numbox[16]", "live.numbox", 0 ],
 			"obj-188" : [ "live.numbox[17]", "live.numbox", 0 ],
 			"obj-189" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-19" : [ "live.text", "live.text", 0 ],
 			"obj-190" : [ "live.numbox[19]", "live.numbox", 0 ],
 			"obj-197" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-200" : [ "live.gain~[6]", "live.gain~", 0 ],
