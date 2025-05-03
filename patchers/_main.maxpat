@@ -15,6 +15,32 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "live.meter~",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"orientation" : 1,
+					"outlettype" : [ "float", "int" ],
+					"patching_rect" : [ 1827.0, 3753.0, 69.0, 19.0 ],
+					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "live.meter~",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"orientation" : 1,
+					"outlettype" : [ "float", "int" ],
+					"patching_rect" : [ 1741.0, 3753.0, 69.0, 19.0 ],
+					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"justification" : 1,
 					"maxclass" : "live.line",
@@ -400,7 +426,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 953.0, 1260.782544076442719, 24.074073672294617 ],
+					"patching_rect" : [ 51.0, 941.0, 1260.782544076442719, 24.074073672294617 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 953.0, 1961.0, 24.0 ]
 				}
@@ -478,7 +504,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 959.0, 1205.504486560821533, 221.0, 86.0 ],
+					"patching_rect" : [ 957.0, 1182.0, 221.0, 86.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 23.020245254039764, 1010.0, 221.0, 86.0 ],
@@ -4722,13 +4748,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-32",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1461.833582639694214, 347.229606330394745, 156.0, 35.0 ],
-									"text" : "https://aqicn.org/city/pune/shivajinagar"
+									"text" : "https://aqicn.org/city/luliang"
 								}
 
 							}
@@ -4779,7 +4804,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1128.075259804725647, 785.872302412986755, 29.5, 22.0 ],
-									"text" : "232"
+									"text" : "55"
 								}
 
 							}
@@ -4806,7 +4831,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1016.917360663414001, 755.797112345695496, 41.841410338878632, 22.0 ],
-									"text" : "20.6"
+									"text" : "18"
 								}
 
 							}
@@ -4833,7 +4858,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 921.90110195600073, 685.120415687561035, 41.841410338878632, 22.0 ],
-									"text" : "51"
+									"text" : "2.8"
 								}
 
 							}
@@ -4860,7 +4885,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 825.206716895103455, 641.511390089988708, 41.841410338878632, 22.0 ],
-									"text" : "3"
+									"text" : "1.1"
 								}
 
 							}
@@ -4887,7 +4912,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 686.842149674892426, 550.533940136432648, 41.841410338878632, 22.0 ],
-									"text" : "232"
+									"text" : "55"
 								}
 
 							}
@@ -5019,7 +5044,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 618.973483085632324, 479.408422529697418, 41.841410338878632, 22.0 ],
-									"text" : "9.7"
+									"text" : "9.2"
 								}
 
 							}
@@ -5031,7 +5056,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 530.93531060218811, 430.19376128911972, 50.0, 22.0 ],
-									"text" : "0.5"
+									"text" : "4"
 								}
 
 							}
@@ -5043,7 +5068,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 460.580474028220578, 375.743497788906097, 64.0, 22.0 ],
-									"text" : "21.8"
+									"text" : "18.3"
 								}
 
 							}
@@ -5055,7 +5080,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 364.966718971729279, 300.751308023929596, 50.0, 22.0 ],
-									"text" : "138"
+									"text" : "21"
 								}
 
 							}
@@ -5067,7 +5092,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 290.097606658935547, 257.942446947097778, 52.0, 22.0 ],
-									"text" : "945.9"
+									"text" : "904.6"
 								}
 
 							}
@@ -5079,7 +5104,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 211.998127341270447, 236.227747797966003, 50.0, 22.0 ],
-									"text" : "61"
+									"text" : "31.7"
 								}
 
 							}
@@ -5091,7 +5116,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 138.366426332638866, 183.596894860267639, 50.0, 22.0 ],
-									"text" : "198"
+									"text" : "5.1"
 								}
 
 							}
@@ -5103,7 +5128,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 62.61185896396637, 145.727747797966003, 52.0, 22.0 ],
-									"text" : "92.9"
+									"text" : "12"
 								}
 
 							}
@@ -5386,7 +5411,7 @@
 
 							}
  ],
-						"originid" : "pat-328"
+						"originid" : "pat-442"
 					}
 ,
 					"patching_rect" : [ 66.05504035949707, 1970.642037391662598, 162.0, 24.0 ],
@@ -5635,13 +5660,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 316.54136848449707, 33.0, 62.0 ],
-									"text" : "very_unhealthy"
+									"text" : "moderate"
 								}
 
 							}
@@ -5900,7 +5925,7 @@
 
 							}
  ],
-						"originid" : "pat-330"
+						"originid" : "pat-444"
 					}
 ,
 					"patching_rect" : [ 1044.594036400318146, 3935.0, 301.0, 22.0 ],
@@ -5933,15 +5958,14 @@
 					"bgfillcolor_type" : "gradient",
 					"gradient" : 1,
 					"id" : "obj-90",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 650.485427975654602, 3925.225222885608673, 88.349513351917267, 35.0 ],
+					"patching_rect" : [ 650.485427975654602, 3925.225222885608673, 88.349513351917267, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1592.842552840709686, 367.787426352500916, 327.672113060951233, 22.0 ],
-					"text" : "very_unhealthy"
+					"text" : "moderate"
 				}
 
 			}
@@ -6144,9 +6168,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1542.592566847801208, 113.888886988162994, 849.074059903621674, 883.333318591117859 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1972.566530406475067, 68.141598403453827, 808.75981804728508, 621.291655898094177 ],
+					"presentation_rect" : [ 1968.0, 68.0, 813.0, 1092.0 ],
 					"rendermode" : 0,
-					"url" : "https://aqicn.org/city/pune/shivajinagar"
+					"url" : "https://aqicn.org/city/luliang"
 				}
 
 			}
@@ -6469,17 +6493,15 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"aqi" : 232,
-						"idx" : 3760,
+						"aqi" : 55,
+						"idx" : 3546,
 						"attributions" : [ 							{
-								"url" : "http://safar.tropmet.res.in/",
-								"name" : "SAFAR - System of Air Quality Forecasting, Indian Institute of Tropical Meteorology, India",
-								"logo" : "India-IITM.png"
+								"url" : "http://sthjt.shanxi.gov.cn/",
+								"name" : "Shanxi Province Environmental Monitoring Center (山西省环境监测中心站网站首页)"
 							}
 , 							{
-								"url" : "http://cpcb.nic.in/",
-								"name" : "CPCB - India Central Pollution Control Board",
-								"logo" : "India-CPCB.png"
+								"url" : " http://www.sxhjjcz.com.cn",
+								"name" : "Shanxi Province Environmental Monitoring Center (山西省环境监测中心站网站首页)"
 							}
 , 							{
 								"url" : "https://waqi.info/",
@@ -6487,257 +6509,240 @@
 							}
  ],
 						"city" : 						{
-							"geo" : [ 18.529603000000002, 73.849586000000002 ],
-							"name" : "Shivajinagar, Pune, Pune, India",
-							"url" : "https://aqicn.org/city/pune/shivajinagar"
+							"geo" : [ 37.518313999999997, 111.144318999999996 ],
+							"name" : "Luliang (吕梁)",
+							"url" : "https://aqicn.org/city/luliang",
+							"location" : ""
 						}
 ,
 						"dominentpol" : "pm25",
 						"iaqi" : 						{
 							"co" : 							{
-								"v" : 51
+								"v" : 2.8
 							}
 ,
-							"dew" : 							{
-								"v" : 20.600000000000001
+							"d" : 							{
+								"v" : 15
 							}
 ,
 							"h" : 							{
-								"v" : 92.900000000000006
+								"v" : 12
 							}
 ,
 							"no2" : 							{
-								"v" : 198
+								"v" : 5.1
 							}
 ,
 							"o3" : 							{
-								"v" : 61
+								"v" : 31.699999999999999
 							}
 ,
 							"p" : 							{
-								"v" : 945.899999999999977
+								"v" : 904.600000000000023
 							}
 ,
 							"pm10" : 							{
-								"v" : 138
+								"v" : 21
 							}
 ,
 							"pm25" : 							{
-								"v" : 232
+								"v" : 55
+							}
+,
+							"r" : 							{
+								"v" : 0.2
+							}
+,
+							"so2" : 							{
+								"v" : 1.1
 							}
 ,
 							"t" : 							{
-								"v" : 21.800000000000001
+								"v" : 18.300000000000001
 							}
 ,
 							"w" : 							{
-								"v" : 0.5
+								"v" : 4
+							}
+,
+							"wd" : 							{
+								"v" : 20
 							}
 
 						}
 ,
 						"time" : 						{
-							"s" : "2021-11-15 06:00:00",
-							"tz" : "+05:30",
-							"v" : 1636956000,
-							"iso" : "2021-11-15T06:00:00+05:30"
+							"s" : "2025-05-03 18:00:00",
+							"tz" : "+08:00",
+							"v" : 1746295200,
+							"iso" : "2025-05-03T18:00:00+08:00"
 						}
 ,
 						"forecast" : 						{
 							"daily" : 							{
 								"o3" : [ 									{
-										"avg" : 15,
-										"day" : "2021-11-13",
-										"max" : 25,
-										"min" : 8
-									}
-, 									{
-										"avg" : 6,
-										"day" : "2021-11-14",
-										"max" : 13,
-										"min" : 1
-									}
-, 									{
-										"avg" : 5,
-										"day" : "2021-11-15",
-										"max" : 12,
-										"min" : 2
-									}
-, 									{
-										"avg" : 7,
-										"day" : "2021-11-16",
-										"max" : 11,
-										"min" : 5
-									}
-, 									{
-										"avg" : 6,
-										"day" : "2021-11-17",
-										"max" : 10,
-										"min" : 4
-									}
-, 									{
-										"avg" : 7,
-										"day" : "2021-11-18",
+										"avg" : 13,
+										"day" : "2025-04-05",
 										"max" : 14,
-										"min" : 5
-									}
-, 									{
-										"avg" : 6,
-										"day" : "2021-11-19",
-										"max" : 14,
-										"min" : 3
-									}
-, 									{
-										"avg" : 3,
-										"day" : "2021-11-20",
-										"max" : 5,
-										"min" : 3
+										"min" : 12
 									}
  ],
 								"pm10" : [ 									{
-										"avg" : 46,
-										"day" : "2021-11-13",
-										"max" : 46,
+										"avg" : 121,
+										"day" : "2025-05-01",
+										"max" : 174,
 										"min" : 46
 									}
 , 									{
-										"avg" : 42,
-										"day" : "2021-11-14",
-										"max" : 46,
-										"min" : 28
-									}
-, 									{
-										"avg" : 38,
-										"day" : "2021-11-15",
-										"max" : 46,
-										"min" : 21
-									}
-, 									{
-										"avg" : 25,
-										"day" : "2021-11-16",
-										"max" : 30,
-										"min" : 19
-									}
-, 									{
-										"avg" : 19,
-										"day" : "2021-11-17",
-										"max" : 20,
-										"min" : 19
-									}
-, 									{
-										"avg" : 27,
-										"day" : "2021-11-18",
-										"max" : 28,
-										"min" : 19
-									}
-, 									{
-										"avg" : 40,
-										"day" : "2021-11-19",
-										"max" : 46,
-										"min" : 28
-									}
-, 									{
-										"avg" : 32,
-										"day" : "2021-11-20",
-										"max" : 46,
-										"min" : 19
+										"avg" : 218,
+										"day" : "2025-05-02",
+										"max" : 396,
+										"min" : 51
 									}
 , 									{
 										"avg" : 24,
-										"day" : "2021-11-21",
+										"day" : "2025-05-03",
 										"max" : 30,
 										"min" : 19
 									}
+, 									{
+										"avg" : 120,
+										"day" : "2025-05-04",
+										"max" : 332,
+										"min" : 19
+									}
+, 									{
+										"avg" : 367,
+										"day" : "2025-05-05",
+										"max" : 396,
+										"min" : 169
+									}
+, 									{
+										"avg" : 98,
+										"day" : "2025-05-06",
+										"max" : 123,
+										"min" : 73
+									}
+, 									{
+										"avg" : 72,
+										"day" : "2025-05-07",
+										"max" : 118,
+										"min" : 58
+									}
+, 									{
+										"avg" : 76,
+										"day" : "2025-05-08",
+										"max" : 111,
+										"min" : 58
+									}
+, 									{
+										"avg" : 112,
+										"day" : "2025-05-09",
+										"max" : 174,
+										"min" : 48
+									}
  ],
 								"pm25" : [ 									{
-										"avg" : 138,
-										"day" : "2021-11-13",
+										"avg" : 122,
+										"day" : "2025-05-01",
+										"max" : 159,
+										"min" : 68
+									}
+, 									{
+										"avg" : 169,
+										"day" : "2025-05-02",
+										"max" : 252,
+										"min" : 75
+									}
+, 									{
+										"avg" : 38,
+										"day" : "2025-05-03",
+										"max" : 68,
+										"min" : 30
+									}
+, 									{
+										"avg" : 132,
+										"day" : "2025-05-04",
+										"max" : 252,
+										"min" : 30
+									}
+, 									{
+										"avg" : 228,
+										"day" : "2025-05-05",
+										"max" : 252,
+										"min" : 158
+									}
+, 									{
+										"avg" : 126,
+										"day" : "2025-05-06",
 										"max" : 138,
+										"min" : 89
+									}
+, 									{
+										"avg" : 132,
+										"day" : "2025-05-07",
+										"max" : 138,
+										"min" : 104
+									}
+, 									{
+										"avg" : 144,
+										"day" : "2025-05-08",
+										"max" : 156,
 										"min" : 138
 									}
 , 									{
-										"avg" : 125,
-										"day" : "2021-11-14",
-										"max" : 138,
-										"min" : 89
-									}
-, 									{
-										"avg" : 117,
-										"day" : "2021-11-15",
-										"max" : 138,
-										"min" : 72
-									}
-, 									{
-										"avg" : 81,
-										"day" : "2021-11-16",
-										"max" : 92,
-										"min" : 68
-									}
-, 									{
-										"avg" : 68,
-										"day" : "2021-11-17",
-										"max" : 70,
-										"min" : 68
-									}
-, 									{
-										"avg" : 86,
-										"day" : "2021-11-18",
-										"max" : 89,
-										"min" : 68
-									}
-, 									{
-										"avg" : 120,
-										"day" : "2021-11-19",
-										"max" : 138,
-										"min" : 89
-									}
-, 									{
-										"avg" : 101,
-										"day" : "2021-11-20",
-										"max" : 138,
-										"min" : 68
-									}
-, 									{
-										"avg" : 81,
-										"day" : "2021-11-21",
-										"max" : 94,
+										"avg" : 136,
+										"day" : "2025-05-09",
+										"max" : 163,
 										"min" : 68
 									}
  ],
 								"uvi" : [ 									{
+										"avg" : 1,
+										"day" : "2025-05-01",
+										"max" : 8,
+										"min" : 0
+									}
+, 									{
+										"avg" : 1,
+										"day" : "2025-05-02",
+										"max" : 6,
+										"min" : 0
+									}
+, 									{
+										"avg" : 1,
+										"day" : "2025-05-03",
+										"max" : 8,
+										"min" : 0
+									}
+, 									{
+										"avg" : 1,
+										"day" : "2025-05-04",
+										"max" : 6,
+										"min" : 0
+									}
+, 									{
+										"avg" : 1,
+										"day" : "2025-05-05",
+										"max" : 6,
+										"min" : 0
+									}
+, 									{
+										"avg" : 1,
+										"day" : "2025-05-06",
+										"max" : 8,
+										"min" : 0
+									}
+, 									{
+										"avg" : 1,
+										"day" : "2025-05-07",
+										"max" : 6,
+										"min" : 0
+									}
+, 									{
 										"avg" : 0,
-										"day" : "2021-11-14",
-										"max" : 0,
-										"min" : 0
-									}
-, 									{
-										"avg" : 1,
-										"day" : "2021-11-15",
-										"max" : 5,
-										"min" : 0
-									}
-, 									{
-										"avg" : 1,
-										"day" : "2021-11-16",
-										"max" : 4,
-										"min" : 0
-									}
-, 									{
-										"avg" : 2,
-										"day" : "2021-11-17",
-										"max" : 7,
-										"min" : 0
-									}
-, 									{
-										"avg" : 1,
-										"day" : "2021-11-18",
-										"max" : 5,
-										"min" : 0
-									}
-, 									{
-										"avg" : 3,
-										"day" : "2021-11-19",
-										"max" : 7,
+										"day" : "2025-05-08",
+										"max" : 1,
 										"min" : 0
 									}
  ]
@@ -6746,7 +6751,7 @@
 						}
 ,
 						"debug" : 						{
-							"sync" : "2021-11-15T09:52:28+09:00"
+							"sync" : "2025-05-03T19:29:41+09:00"
 						}
 
 					}
@@ -6827,8 +6832,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
@@ -7799,7 +7802,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 0,
+					"source" : [ "obj-277", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"order" : 0,
+					"source" : [ "obj-277", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-283", 1 ],
+					"order" : 1,
 					"source" : [ "obj-277", 1 ]
 				}
 
@@ -7807,6 +7827,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-283", 0 ],
+					"order" : 1,
 					"source" : [ "obj-277", 0 ]
 				}
 
@@ -8188,7 +8209,7 @@
 
 			}
  ],
-		"originid" : "pat-248",
+		"originid" : "pat-362",
 		"parameters" : 		{
 			"obj-112" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-123" : [ "live.numbox[5]", "live.numbox", 0 ],
